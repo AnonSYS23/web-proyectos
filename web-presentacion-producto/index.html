@@ -3,39 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Meet the EasyDesk 1</title>
+    <link rel="stylesheet" href="/web-presentacion-producto/css/style.css">
 </head>
 <body>
     <header>
         <h1>A<span>NON</span>SOFT</h1>
         <nav>
-        <li>
-            <a href="#">Home</a>
-        </li>
-        <li>
-            <a href="#">Customize</a>
-        </li>
-        <li>
-            <a href="#">Waitlist</a>
-        </li>
+            <li>
+                <a href="/web-presentacion-producto/index.html">Home</a>
+            </li>
+            <li>
+                <a href="/web-presentacion-producto/customize.html">Customize</a>
+            </li>
+            <li>
+                <a href="#">Waitlist</a>
+            </li>
         </nav>
     </header>
     <main>
         <section>
             <h1>EasyDesk 1</h1>
-            <p>A new premiun laptop within Intel Core or AMD Ryzen fast CPU for better performance at the cost of a budget laptop, this was made for education, principally for novice programmers who don't have so much money for a new PC </p>
-        <ul>
-            <li>
-                <a href="#" id="specs">Inside of EasyDesk 1</a>
-            </li>
-            <li>
-                <a href="#">Outside the EasyDesk 1</a>
-            </li>
-        </ul>
-    </section>
-    <picture>
-        <img src="" alt="">
-    </picture>
+            <p>A new premium laptop with an Intel Core or AMD Ryzen fast CPU for better performance at the cost of a budget laptop. This was made for education, principally for novice programmers who don't have much money for a new PC.</p>
+        </section>
+        <picture>
+            <img src="/web-presentacion-producto/img/image.png" alt="">
+        </picture>
     </main>
+
+    <form id="waitlist-form">
+        <h2>Join the Waitlist</h2>
+        <label for="name">Name:</label><br/>
+        <input type="text" id="name" placeholder="Add your Name" required/><br/>
+        <label for="email">Email address:</label><br/>
+        <input type="email" id="email" placeholder="Your email here" required /><br />
+        <button class="btn btn--primary" onclick="alert('Thank you for joining the waitlist!')">Join the waitlist</button>
+    </form>
+    <script src="/web-presentacion-producto/js/script.js"></script>
 </body>
 </html>
