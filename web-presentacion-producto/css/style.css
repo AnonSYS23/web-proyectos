@@ -145,3 +145,7 @@ button {
   color: #333;
   text-decoration: underline;
 }
+
+.textos p {
+  margin-bottom: 0;
+}
