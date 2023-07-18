@@ -134,3 +134,14 @@ button {
     padding: 10px;
   }
 }
+
+/* Custom styles */
+.textos {
+  font-size: 18px;
+  color: #888;
+}
+
+.textos a {
+  color: #333;
+  text-decoration: underline;
+}
